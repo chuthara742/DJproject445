@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <link type="text/css " rel="stylesheet"
+           href={% static 'sylesheet/bt523/css/bootstrap.css' %}>
+    <link type="text/css" rel="stylesheet" href="{% static 'fontawesome-free-5.15.4-web/css/all.css' %}">
+    <script src='{% static 'sylesheet/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="row">
+    <div class="col-lg-2" style="background-color: #6f42c1">
+        <img src="{% static 'images/fah.jpg' %}" class="rounded-square" width="150px" height="150px">
+    </div>
+    <div class="col-lg-10" style="background-color: #ffe69c">
+        <img src="{% static 'images/fah.jpg' %}" class="rounded-square">
+    </div>
+</div>
+
+</body>
+</html>

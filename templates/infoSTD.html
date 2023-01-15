@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+    <link type="text/css " rel="stylesheet" href="{% static 'stylesheets/bt523/css/bootstrap.css' %}">
+    <link type="text/css " rel="stylesheet" href="{% static 'fontawesome5/css/all.css' %}">
+    <script src='{%static 'stylesheets/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>info</title>
+</head>
+
+<div class="text-dark" style="background-color: #9ec5fe">
+    <br>
+
+    <h5 align='right' ><a href="/"><i class="fa fa-home"> Home </i> </a> </h5>
+    <br>
+
+    <div class="row">
+        <h2 class="text-center display-3" style="background-color: lightyellow"><b><u>ข้อมูลส่วนตัว</u></b></h2>
+    </div>
+    
+    <br><br>
+        <video src="{% static "images/222222.mp4" %}" width="170" height="195" controls="controls"
+                class="mx-auto d-block img-thumbnail img-fluid"loop></video>
+
+    <br>
+        <div class="row ">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col bg-white">
+                <br>ชื่อ : จุฑารัตน์
+                <br>สกุล : ประจันตะเสน
+                <br>ชื่อเล่น : ฟ้า
+                <br>อายุ : 21 ปี
+                <br>วันเกิด : 01/08/2544
+                <br><br><br><br><br><br>
+
+
+
+
+            </div>
+            <div class="col bg-white"></div>
+            <div class="col bg-white">
+                <br>name :chutharat
+                <br>surname : Prachantasen
+                <br>nickname : fah
+                <br>age : 21 years old
+
+
+
+
+
+            </div>
+            <br><br><br><br><br>
+</div>
+</div>
+</body>
+
+{% endblock %}

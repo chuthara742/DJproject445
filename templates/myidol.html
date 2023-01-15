@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+    <link type="text/css " rel="stylesheet" href="{% static 'stylesheets/bt523/css/bootstrap.css' %}">
+    <link type="text/css " rel="stylesheet" href="{% static 'fontawesome5/css/all.css' %}">
+    <script src='{%static 'stylesheets/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>myidol</title>
+</head>
+<body>
+<div class="row">
+    <div class="text-white" style="background-color: lightskyblue">
+        <h5 align='right' ><a href="/"><i class="fa fa-home"> Home </i> </a> </h5>
+<br>
+
+
+
+
+ <br>
+    <div class="row">
+    <h2 class="text-center display-3" style="background-color: #ffe69c"><b><u>บุคคลต้นแบบ</u></b></h2><br>
+    <h3 class="text-center"><b>leonardo dicaprio</b></h3>
+<br>       
+    </div>    
+    <img src="{% static "images/23.jpg" %}" width="500" height="500" class="mx-auto d-block img-thumbnail img-fluid">
+
+<br>
+
+
+   <div class="row">
+       <div class="col">
+           <video src="{% static "images/10.mp4" %}" width="500" height="500" controls="controls"
+                class="mx-auto d-block img-thumbnail img-fluid"loop></video>
+       </div>
+       <div class="col bg-white text-bg-info">
+           ลีโอนาร์โด ดิแคพรีโอ (อังกฤษ: Leonardo DiCaprio; เกิด 11 พฤศจิกายน ค.ศ. 1974) เป็นนักแสดงชาวอเมริกัน ผู้ชนะรางวัลลูกโลกทองคำสาขานักแสดงนำชายยอดเยี่ยม
+           ประเภทภาพยนตร์ดรามา และได้รับการเสนอชื่อเข้าชิงรางวัลแบฟตา ค.ศ. 2014 ดิแคพรีโอยังได้รับการยกย่องให้เป็นนักแสดงแห่งปีที่งานเทศกาลฮอลลีวูดฟิล์มและใน ค.ศ. 2016
+           เขากวาดรางวัลด้านการแสดงในสาขานักแสดงนำชายยอดเยี่ยมจากภาพยนตร์เรื่อง ต้องรอด หลายสถาบันรวมถึงรางวัลออสการ์ รางวัลแบฟตา และรางวัลลูกโลกทองคำอีกด้วย
+       </div>
+   </div>
+    <div class="col"></div>
+
+    </div>
+</div>
+
+</body>
+
+{% endblock %}

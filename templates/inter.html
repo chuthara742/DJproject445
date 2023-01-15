@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+    <link type="text/css " rel="stylesheet" href="{% static 'stylesheets/bt523/css/bootstrap.css' %}">
+    <link type="text/css " rel="stylesheet" href="{% static 'fontawesome5/css/all.css' %}">
+    <script src='{%static 'stylesheets/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>inter</title>
+</head>
+<body>
+<div class="row">
+    <div class="text-dark" style="background-color:#b6d4fe ">
+
+<br>
+        <h5 align="right"><a href="/"><i class="fa fa-home">Home</i> </a> </h5>
+<br>
+        <div class="row">
+            <h2 class="display-9 text-center"style="background-color: #a3cfbb"></h2><b><u>My inter </u></b>
+<br><br>            
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-2">
+                <h2 class="display-9 text-center" ><b> Movie</b></h2>
+                <img src="{% static "images/5.jpg" %}" width="200" height="150" class="mx-auto d-block img-thumbnail img-fluid"><br>
+                <img src="{% static "images/77.jpg" %}" width="200" height="150 " class="mx-auto d-block img-thumbnail img-fluid"><br>
+            </div>
+            
+            <div class="col-lg-4">
+        <br><br><br><br><br><br><br><br>
+                <h2 class="display-9">: สุขสันต์วันโสด</h2>
+        <br><br><br><br><br><br><br><br>
+                <h2 class="display-9">: พี่มากพระโขนง</h2>
+            </div>
+            <div class="col-lg-4 text-center"style="background-color: #b6d4fe">
+                <h2 class="display-9 text-center" ><b> Hobby</b></h2>
+                <p>นอนฟังเพลง</p>
+                <img src="{% static "images/3.jpg" %}">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div>
+    </div>
+
+
+
+</body>
+{% endblock %}

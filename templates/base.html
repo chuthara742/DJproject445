@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+
+    <link type="text/css " rel="stylesheet"
+           href={% static 'sylesheet/bt523/css/bootstrap.css' %}>
+    <link type="text/css" rel="stylesheet" href="{% static 'fontawesome-free-5.15.4-web/css/all.css' %}">
+    <script src='{% static 'sylesheet/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12" style="background-color: #a3cfbb">
+            {% include 'header.html' %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  text-warning " style="background-color: #a3cfbb">
+            {% include 'manu.html' %}
+
+        </div>
+    </div>
+    <div class="col-lg-12 text-primary" style="background-color: #9ec5fe">
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

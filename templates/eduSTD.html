@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+    <link type="text/css " rel="stylesheet" href="{% static 'stylesheets/bt523/css/bootstrap.css' %}">
+    <link type="text/css " rel="stylesheet" href="{% static 'fontawesome5/css/all.css' %}">
+    <script src='{%static 'stylesheets/bt523/js/bootstrap.js' %}'></script>
+    <meta charset="UTF-8">
+    <title>edu</title>
+</head>
+<body>
+    <div class="row ">
+        <div class="text-dark" style="background-color: #ffe69c">
+
+<br> 
+            <h5 align="right"><a href="/" ><i class="fa fa-home"> Home</i> </a> </h5>
+<br>
+
+         <h2 class="row  ">
+             <h2 class="display-6 text-center" style="background-color: #b46bb4" ><b><u>ประวัติการศึกษา</u></b></h2>
+             <img src="{% static "images/g.png" %}" width="300" height="300" class="mx-auto d-block img-fluid">
+            <br><br><br>
+             <br><br>ระดับประถมศึกษา
+             <br>-โรงเรียนชุมชนโนนแสนสุข
+             <br><br><br>
+             <br>ระดับมัฐยมศึกษา
+             <br>-โรงเรียนชุมชนโนนแสนสุข
+             <br>ระดับมัฐยมศึกษา
+             <br>-วิทยาลัยการอาชีพขอนแก่น
+
+
+
+
+         </h2></div>
+
+        </div>
+    </div>
+
+</body>
+{% endblock %}
