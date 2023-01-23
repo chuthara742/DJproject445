@@ -34,6 +34,8 @@ urlpatterns = [
 
      path('header',views.header, name = "header"),
 
-    path('package',views.package, name = "package")
+    path('package',views.package, name = "package"),
+
+    path('showMyData',views.showMyData,name ="showMyData"),
 
 ]

@@ -30,3 +30,15 @@ def header(request):
 def package(request):
     return render(request,'package.html')
 
+def showMyData(request):
+    name = "chutharat"
+    surname = "chutharat"
+    gender = "Male"
+    status = "student"
+    work = "RMUTI.Khonkean"
+    education = ""
+    return render(request,'showMyData.html',
+                  {'name':name,'surname':surname,'gender':gender,'status':status,'work':work,'education':education}
+                  )
+
+
