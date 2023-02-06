@@ -36,6 +36,11 @@ urlpatterns = [
 
     path('package',views.package, name = "package"),
 
-    path('showMyData',views.showMyData,name = 'showMyData'),
+    path('showMyData',views.showMyData, name = "showMyData"),
+
+    path('inputProduct',views.inputProduct, name = "inputProduct"),
+
+    path('listProduct',views.listProduct, name = "listProduct"),
+
 
 ]
