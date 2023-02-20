@@ -38,8 +38,6 @@ urlpatterns = [
 
     path('showMyData',views.showMyData, name = "showMyData"),
 
-    path('inputProduct',views.inputProduct, name = "inputProduct"),
-
     path('listProduct',views.listProduct, name = "listProduct"),
 
 

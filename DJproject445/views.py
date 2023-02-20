@@ -1,7 +1,7 @@
 import datetime
 
 from django.shortcuts import render, redirect
-from .forms import *
+#from .forms import *
 
 
 def home(request):
@@ -72,7 +72,6 @@ def listProduct(request):
     return render(request,'listProduct.html',{'lstProduct':lstOurProduct,
                                               'details':details,'name':name,
                                               'date':date.strftime("%A %d-%m-%Y %H :%M")})
-
 
 def inputProduct(request):
     if request.method == 'POST':
